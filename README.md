@@ -192,7 +192,7 @@ For RetroArch, use this:
 
 **5.**  For RetroArch, you will need the .sln file in the RetroArch/pkg/msvc-uwp/ directory.
 
-**6.**  For RetroArch, download the cores here (https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_cores.7z) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
+**6.**  For RetroArch, download the cores here (http://www.mediafire.com/file/f0yfmx33x3f0pin/RetroArch_Cores.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
 
 **7.**  For RetroArch, download the other .dll files here (https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_update.7z) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/ directory.
 
