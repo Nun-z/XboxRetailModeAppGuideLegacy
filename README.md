@@ -210,21 +210,25 @@ For RetroArch, use this:
 
 **12.**  Click on the "associate" button.  The window will close.
 
-**13.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
+**13.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
+
+![configurations](https://i.imgur.com/gSoVFYM.png "choose the correct configurations")
+
+**14.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
 
 ![createpackage](https://i.imgur.com/tiD1dn0.png "create the package")
 
-**14.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
+**15.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
 
-**15.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
+**16.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
 
-**16.**  Uncheck the checkbox for "generate artifacts to validate..."
+**17.**  Uncheck the checkbox for "generate artifacts to validate..."
 
 ![makepackagefile](https://i.imgur.com/c4IVMaF.png "select package options")
 
-**17.**  Click on the "create" button.
+**18.**  Click on the "create" button.
 
-**18.**  Click on the "output location" link.
+**19.**  Click on the "output location" link.
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
 
