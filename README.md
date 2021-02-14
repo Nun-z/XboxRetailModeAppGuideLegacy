@@ -182,11 +182,11 @@ We will now need to generate a .msixupload or .appxupload file for submission to
 
 **3.**  Enter the following into cmd.exe and press the enter key.  Replace the URL I am using with the URL that links to your app's source code.
 
-`git clone https://github.com/Nun-z/RetroArch.git --branch master --single-branch`
+`git clone --recursive https://github.com/Nun-z/UniversalFtpServer.git`
 
 For RetroArch, use this:
 
-`git clone --recursive https://github.com/libretro/RetroArch.git`
+`git clone https://github.com/Nun-z/RetroArch.git --branch master --single-branch --recursive`
 
 **4.**  Double-click on the resulting .sln file that corresponds to your app.  If the source code has multiple .sln files, make sure to click on the one that is specifically intended for generating a UWP package.
 
