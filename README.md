@@ -200,33 +200,43 @@ For RetroArch, use this:
 
 **9.**  Log in with the Microsoft account that is linked to your Xbox.
 
-**10.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
+**10.**  Double-click on the Package.appxmanifest file in the solution explorer.
+
+**11.**  Click on the "packaging" tab.
+
+**12.**  Click on the "choose certificate" button.
+
+**13.**  Click on the "create" button.
+
+**14.**  Enter the publisher name you created for yourself and any password you desire.
+
+**15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
 
 ![associate](https://i.imgur.com/bu80QeO.png "Associate the source code with your app")
 
-**11.**  Press the "next" button, click on the name of your app, and then click on the "next" button again.
+**16.**  Press the "next" button, click on the name of your app, and then click on the "next" button again.
 
-**12.**  Click on the "associate" button.  The window will close.
+**17.**  Click on the "associate" button.  The window will close.
 
-**13.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
+**18.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
 
 ![configurations](https://i.imgur.com/gSoVFYM.png "choose the correct configurations")
 
-**14.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
+**19.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
 
 ![createpackage](https://i.imgur.com/tiD1dn0.png "create the package")
 
-**15.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
+**20.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
 
-**16.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
+**21.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
 
-**17.**  Uncheck the checkbox for "generate artifacts to validate..."
+**22.**  Uncheck the checkbox for "generate artifacts to validate..."
 
 ![makepackagefile](https://i.imgur.com/c4IVMaF.png "select package options")
 
-**18.**  Click on the "create" button.
+**23.**  Click on the "create" button.
 
-**19.**  Click on the "output location" link.
+**24.**  Click on the "output location" link.
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
 
