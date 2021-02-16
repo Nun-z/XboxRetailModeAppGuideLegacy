@@ -48,7 +48,7 @@ If you have a Microsoft account that you log into on your Xbox and $20, you have
 **2.**  If you are not already signed in with your Xbox’s Microsoft account, sign in using the prompt displayed.
 
 **3.**  On the next page, select the “individual” account type option.
-![AccountType](https://i.imgur.com/QMwdTjV.png "Sign up for an individual account")
+![AccountType](https://i.imgur.com/3M84Ydq.png "Sign up for an individual account")
 
 **4.**  Scroll down to the “publisher display name (company name)” textbox and enter your desired publisher name.  This can be anything as long as it hasn’t already been claimed by someone else.
 
@@ -74,11 +74,11 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **5.**  All these sections will need to be completed in order to create your app.  Click on the "pricing and availability" link first.
 
-![availability](https://i.imgur.com/SqQ4huM.png "Click on the topmost link")
+![availability](https://i.imgur.com/x6ke1zS.png "Click on the topmost link")
 
 **6.**  In the visibility section of the next page, click on the "private audience" radio button, and then click on the "create a new group" link.
 
-![visibility](https://i.imgur.com/uSnYjw8.png "Add yourself to a group")
+![visibility](https://i.imgur.com/RDuYr8m.png "Add yourself to a group")
 
 **7.**  Enter anything you desire in the "group name" textbox, and then enter your email address into the bottom textbox.
 
@@ -86,7 +86,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **9.**  First, place your cursor on the symbol with three squares on the left-hand portion of the page.  Then, click on the name of your app.
 
-![return](https://i.imgur.com/zePt574.png "Return to the product overview page")
+![return](https://i.imgur.com/hdQBnNN.png "Return to the product overview page")
 
 **10.**  Click on the "submission 1" link under the "submissions" heading.
 
@@ -96,13 +96,13 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **13.**  Click on the checkbox for the customer group that you just created.
 
-![customers](https://i.imgur.com/iyhJS7v.png "click on the checkbox")
+![customers](https://i.imgur.com/gIQLTjb.png "click on the checkbox")
 
 **14.**  Scroll down to the discoverability section and click on the radio button for "make this product available but not discoverable in the Microsoft Store."
 
 **15.**  Make sure the "direct link only" radio button is also selected.
 
-![directlink](https://i.imgur.com/bnRnzrH.png "make sure the app is for a private audience")
+![directlink](https://i.imgur.com/ui18qor.png "make sure the app is for a private audience")
 
 **16.** Scroll down to the pricing section and choose "free" in the base price dropdown list.
 
@@ -112,7 +112,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **1.**  Click on the "properties" link.
 
-![properties](https://i.imgur.com/nkztM6A.png "fill out the properties section")
+![properties](https://i.imgur.com/qXiNnAi.png "fill out the properties section")
 
 **2.**  In the topmost dropdown list, select "games" for the category.
 
@@ -120,11 +120,11 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **4.**  Click on the "yes" button for the privacy policy section and enter a valid URL.
 
-![policy](https://i.imgur.com/z3QsbXr.png "select the appropriate radio button for your app")
+![policy](https://i.imgur.com/mQFNZDZ.png "select the appropriate radio button for your app")
 
 **5.**  Scroll down to the display mode section and click on both Xbox checkboxes.
 
-![display](https://i.imgur.com/BDZfhSZ.png "display mode checkboxes")
+![display](https://i.imgur.com/AgcQQQD.png "display mode checkboxes")
 
 **6.**  No further input is required.  Scroll all the way down and click on the "save" button.
 
@@ -132,7 +132,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **1.** Click on the "age ratings" link
 
-![ageratings](https://i.imgur.com/8x9HMJh.png "age ratings")
+![ageratings](https://i.imgur.com/Fmop4y7.png "age ratings")
 
 **2.**  Go ahead and select the radio buttons that best describe your app.  Nothing specific is required here except for the last question.
 
