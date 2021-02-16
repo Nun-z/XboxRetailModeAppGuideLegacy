@@ -144,13 +144,13 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **1.**  Click on the "add/remove languages" link in the store listings section.
 
-![addlanguage](https://i.imgur.com/ZtrN9G2.png "add a language")
+![addlanguage](https://i.imgur.com/ZU4PQXd.png "add a language")
 
 **2.**  Type "English" into the first textbox and press the enter key.
 
 **3.**  A new window is displayed.  Type "English" into the textbox and click on the "English" checkbox.
 
-![languages](https://i.imgur.com/tAwESG0.png "select the appropriate language")
+![languages](https://i.imgur.com/c6auYZU.png "select the appropriate language")
 
 **4.**  Click on the "update" button.
 
@@ -158,7 +158,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **6.**  Click on the "English" link that is now displayed in the store listings section.
 
-![englishlink](https://i.imgur.com/ud9KS4Q.png "click on the language link")
+![englishlink](https://i.imgur.com/Ric7fBT.png"click on the language link")
 
 **7.**  Enter the app's description into the required "description" textbox.
 
@@ -240,7 +240,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 **3.**  Click on the "packages" link.
 
-![packagessection](https://i.imgur.com/9WigQGV.png "go to the packages section")
+![packagessection](https://i.imgur.com/Wx8RlS6.png "go to the packages section")
 
 **4.**  Drag the .appxupload or .msixupload file into the packages section.
 
@@ -254,7 +254,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 **8.**  Click on the "Xbox Live creator's program" link.
 
-![XboxLive](https://i.imgur.com/RJUFuri.png "enter the xbox live program")
+![XboxLive](https://i.imgur.com/xyK5RK2.png "enter the xbox live program")
 
 **8.**  Click on the "enable" button on the top-right of the page.
 
@@ -266,7 +266,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 **12.**  Scroll down and click on the "submit to the store" button.
 
-![submit](https://i.imgur.com/ofrcjed.png "submit to the store")
+![submit](https://i.imgur.com/Ajj1Nrz.png "submit to the store")
 
 **13.**  Scroll all the way down and click on the "save" button.
 
@@ -282,11 +282,11 @@ Once the app has been published, it is time to create a website that will link t
 
 **2.**  Click on "product management" and then on "product identity."
 
-![identity](https://i.imgur.com/SMeP9Gf.png "go to the product identity pge")
+![identity](https://i.imgur.com/o6M3ktF.png "go to the product identity pge")
 
 **3.**  Scroll down and write down the URL labeled as "URL if your app is only visible to certain people (requires authentication)."
 
-![URL](https://i.imgur.com/dgn3lbs.png "copy down the URL")
+![URL](https://i.imgur.com/EgdIQw3.png "copy down the URL")
 
 **4.**  Create a new text file with the following contents and save it as index.html.
 
