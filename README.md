@@ -184,7 +184,7 @@ We will now need to generate a .msixupload or .appxupload file for submission to
 
 For RetroArch, use this:
 
-`git clone https://github.com/Nun-z/RetroArch.git --branch master --single-branch --recursive`
+`git clone --recursive https://github.com/libretro/RetroArch.git`
 
 **4.**  Double-click on the resulting .sln file that corresponds to your app.  If the source code has multiple .sln files, make sure to click on the one that is specifically intended for generating a UWP package.
 
@@ -200,15 +200,15 @@ For RetroArch, use this:
 
 **9.**  Log in with the Microsoft account that is linked to your Xbox.
 
-**10.**  Double-click on the Package.appxmanifest file in the solution explorer.
+**10.**  For RetroArch, expand the project in the right-hand solution window.
 
-**11.**  Click on the "packaging" tab.
+**11.**  Right-click on "references" in the solution window.
 
-**12.**  Click on the "choose certificate" button.
+**12.**  Click on the "add references."
 
-**13.**  Click on the "create" button.
+**13.**  Click on the "extensions."
 
-**14.**  Enter the publisher name you created for yourself and any password you desire.
+**14.**  Click the checkboxes for "Microsoft Visual C++ Runtime Package for Windows Universal," "Visual C++ 2013 UWP Desktop Runtime," and "Visual C++ 2015 UWP Desktop Runtime," and then click om the ok button.
 
 **15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
 
