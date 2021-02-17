@@ -1,6 +1,6 @@
 This method (used first by tunip3) allows apps to be installed to an Xbox in retail mode that would normally only be available in dev mode.
 
-Please note that some people are reporting problems with getting RetroArch up and running.  I would recommend holding off on RetroArch for now.  PPSSPP is much easier to get working and I haven't received any issues with that, so that may be the logical place to start.
+Please note that some people are reporting problems with getting RetroArch up and running.  I apologize for errors in the guide.  I would recommend holding off on RetroArch for now.  PPSSPP is much easier to get working and I haven't received any issues with that, so that may be the logical place to start.
 
 ## Guide to Installing Apps to an Xbox in Retail Mode
 
