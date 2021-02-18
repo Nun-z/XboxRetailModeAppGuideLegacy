@@ -209,7 +209,7 @@ For RetroArch, use this:
 
 **13.**  Click on the "extensions."
 
-**14.**  Click the checkboxes for "Microsoft Visual C++ Runtime Package for Windows Universal," "Visual C++ 2013 UWP Desktop Runtime," and "Visual C++ 2015 UWP Desktop Runtime," and then click om the ok button.
+**14.**  Click the checkboxes for "Microsoft Visual C++ Runtime Package for Windows Universal," "Visual C++ 2013 UWP Desktop Runtime," and "Visual C++ 2015 UWP Desktop Runtime," and then click on the ok button.
 
 **15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
 
