@@ -159,7 +159,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **6.**  Click on the "English" link that is now displayed in the store listings section.
 
-![englishlink](https://i.imgur.com/Ric7fBT.png"click on the language link")
+![englishlink](https://i.imgur.com/Ric7fBT.png "click on the language link")
 
 **7.**  Enter the app's description into the required "description" textbox.
 
