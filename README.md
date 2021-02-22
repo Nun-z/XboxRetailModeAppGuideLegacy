@@ -129,7 +129,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 #### Step 2.3: Enter age ratings settings
 
-**1.** Click on the "age ratings" link
+**1.** Click on the "age ratings" link.
 
 ![ageratings](https://i.imgur.com/Fmop4y7.png "age ratings")
 
