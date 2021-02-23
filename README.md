@@ -75,7 +75,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **5.**  All these sections will need to be completed in order to create your app.  Click on the "pricing and availability" link first.
 
-![availability](https://i.imgur.com/x6ke1zS.png "Click on the topmost link")
+![availability](https://i.imgur.com/sjNFIwR.png "Click on the topmost link")
 
 **6.**  In the visibility section of the next page, click on the "private audience" radio button, and then click on the "create a new group" link.
 
@@ -85,7 +85,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **9.**  First, place your cursor on the symbol with three squares on the left-hand portion of the page.  Then, click on the name of your app.
 
-![return](https://i.imgur.com/hdQBnNN.png "Return to the product overview page")
+![return](https://i.imgur.com/nBK1Y4i.png "Return to the product overview page")
 
 **10.**  Click on the "submission 1" link under the "submissions" heading.
 
@@ -95,7 +95,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **13.**  Click on the checkbox for the customer group that you just created.
 
-![customers](https://i.imgur.com/gIQLTjb.png "click on the checkbox")
+![customers](https://i.imgur.com/SDq0CyA.png "click on the checkbox")
 
 **14.**  Scroll down to the discoverability section and click on the radio button for "make this product available but not discoverable in the Microsoft Store."
 
@@ -131,7 +131,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **1.** Click on the "age ratings" link.
 
-![ageratings](https://i.imgur.com/Fmop4y7.png "age ratings")
+![ageratings](https://i.imgur.com/FOJfeoT.png "age ratings")
 
 **2.**  Go ahead and select the radio buttons that best describe your app.  Nothing specific is required here except for the last question.
 
@@ -159,7 +159,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **6.**  Click on the "English" link that is now displayed in the store listings section.
 
-![englishlink](https://i.imgur.com/Ric7fBT.png "click on the language link")
+![englishlink](https://i.imgur.com/QReaixE.png "click on the language link")
 
 **7.**  Enter the app's description into the required "description" textbox.
 
@@ -277,7 +277,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 **13.**  Scroll down and click on the "submit to the store" button.
 
-![submit](https://i.imgur.com/Ajj1Nrz.png "submit to the store")
+![submit](https://i.imgur.com/hXJlLlB.png "submit to the store")
 
 **14.**  Scroll all the way down and click on the "save" button.
 
