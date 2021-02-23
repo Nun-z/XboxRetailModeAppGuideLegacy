@@ -267,23 +267,23 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 ![XboxLive](https://i.imgur.com/xyK5RK2.png "enter the xbox live program")
 
-**8.**  Click on the "enable" button on the top-right of the page.
+**9.**  Click on the "enable" button on the top-right of the page.
 
-**9.**  Click on the "confirm" button.
+**10.**  Click on the "confirm" button.
 
-**10.**  Scroll all the way down and click on the "test" button.
+**11.**  Scroll all the way down and click on the "test" button.
 
-**11.**  Once "success" is displayed, return to the app overview page.
+**12.**  Once "success" is displayed, return to the app overview page.
 
-**12.**  Scroll down and click on the "submit to the store" button.
+**13.**  Scroll down and click on the "submit to the store" button.
 
 ![submit](https://i.imgur.com/Ajj1Nrz.png "submit to the store")
 
-**13.**  Scroll all the way down and click on the "save" button.
+**14.**  Scroll all the way down and click on the "save" button.
 
-**14.**  If necessary, click on the "submit to the store" button again.
+**15.**  If necessary, click on the "submit to the store" button again.
 
-**15.**  The app has now been submitted to the store.  Wait to receive an email indicating that the app was published.
+**16.**  The app has now been submitted to the store.  Wait to receive an email indicating that the app was published.
 
 ### Step 5: Create a website that links to the app
 
