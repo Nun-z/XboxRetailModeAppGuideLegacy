@@ -189,7 +189,7 @@ For RetroArch, use this:
 
 **4.**  Double-click on the resulting .sln file that corresponds to your app.  If the source code has multiple .sln files, make sure to click on the one that is specifically intended for generating a UWP package.
 
-**5.**  For RetroArch, you will need the .sln file in the RetroArch/pkg/msvc-uwp/ directory.
+**5.**  For RetroArch, you will need the 2017 (not 2019) .sln file in the RetroArch/pkg/msvc-uwp/ directory.
 
 **6.**  For RetroArch, download the cores here (http://www.mediafire.com/file/f0yfmx33x3f0pin/RetroArch_Cores.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
 
