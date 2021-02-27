@@ -253,35 +253,35 @@ For RetroArch, use this:
 
 We will now use an open-source application named AppxPacker to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
 
-**3.2.1**  Navigate to the Identity Center page by first clicking on the "product management" menu item and then clicking on the "product identity" menu item.
+**3.2.1.**  Navigate to the Identity Center page by first clicking on the "product management" menu item and then clicking on the "product identity" menu item.
 
 ![gotoidentity](https://i.imgur.com/RST70H2.png "navigate to product identity")
 
-**3.2.1**  Download this .zip file (http://www.mediafire.com/file/a297dxtf746dnnd/AppxPacker.rar/file) and extract it to an easily accessible folder.
+**3.2.1.**  Download this .zip file (http://www.mediafire.com/file/a297dxtf746dnnd/AppxPacker.rar/file) and extract it to an easily accessible folder.
 
-**3.2.2**  Right-click your .appx file and open it with WinRar.
+**3.2.2.**  Right-click your .appx file and open it with WinRar.
 
-**3.2.3**  Extract the contents of the .appx file to a separate directory.
+**3.2.3.**  Extract the contents of the .appx file to a separate directory.
 
-**3.2.4**  Double-click on the "Appx packer.exe" file that you extracted in step 3.2.1.  The application will launch.
+**3.2.4.**  Double-click on the "Appx packer.exe" file that you extracted in step 3.2.1.  The application will launch.
 
-**3.2.5**  In the "App path" textbox, enter the full path of the folder from step 3.2.3. containing the contents of the .appx file (you should specify a folder, not a file).
+**3.2.5.**  In the "App path" textbox, enter the full path of the folder from step 3.2.3. containing the contents of the .appx file (you should specify a folder, not a file).
 
-**3.2.6**  In the "Output folder" textbox, enter the full path of any folder you'd like.  The folder you specify will contain the repackaged .appx file (again, this should be a folder and not a file).
+**3.2.6.**  In the "Output folder" textbox, enter the full path of any folder you'd like.  The folder you specify will contain the repackaged .appx file (again, this should be a folder and not a file).
 
-**3.2.7**  Uncheck the "Patch for XB1" checkbox.
+**3.2.7.**  Uncheck the "Patch for XB1" checkbox.
 
-**3.2.8**  Copy over the package name, publisher name, publisher display name, and package display name from the identity center webpage to the AppxPacker application as shown in the image below.
+**3.2.8.**  Copy over the package name, publisher name, publisher display name, and package display name from the identity center webpage to the AppxPacker application as shown in the image below.
 
 ![copydetes](https://i.imgur.com/77GKWYu.png "copy over details")
 
-**3.2.9**  Click on the "create appx" button in the AppxPacker application.
+**3.2.9.**  Click on the "create appx" button in the AppxPacker application.
 
-**3.2.10**  You will be prompted for a password several times.  Just enter "test" for every prompt.
+**3.2.10.**  You will be prompted for a password several times.  Just enter "test" for every prompt.
 
-**3.2.11**  If the process is completed successfully, you will see a pop-up window indicating that the package was created and signed.
+**3.2.11.**  If the process is completed successfully, you will see a pop-up window indicating that the package was created and signed.
 
-**3.2.12**  You will find the package that you will need to upload to the Microsoft Store in the output folder that you specified in step 3.2.6.
+**3.2.12.**  You will find the package that you will need to upload to the Microsoft Store in the output folder that you specified in step 3.2.6.
 
 ### Step 4: Upload the application to the Microsoft Store
 
