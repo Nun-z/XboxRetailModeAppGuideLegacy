@@ -22,9 +22,9 @@ I think I have fixed the issues with the guide.  If you do run into a problem, f
 
 * [Step 3: Prepare the application's package for upload](#step-3-prepare-the-applications-package-for-upload)
 
-    *[Step 3.1: You have the source code](#Step-31-you-have-the-source-code)
+    * [Step 3.1: You have the source code](#Step-31-you-have-the-source-code)
     
-    *[Step 3.2: You don't have the source code](#Step-32-you-dont-have-the-source-code)
+    * [Step 3.2: You don't have the source code](#Step-32-you-dont-have-the-source-code)
 
 * [Step 4: Upload the application to the Microsoft Store](#step-4-upload-the-application-to-the-microsoft-store)
 
