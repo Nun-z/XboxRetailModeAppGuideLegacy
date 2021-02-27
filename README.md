@@ -295,7 +295,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 ![packagessection](https://i.imgur.com/Wx8RlS6.png "go to the packages section")
 
-**4.**  Drag the .appxupload or .msixupload file into the packages section.
+**4.**  Drag the .appxupload, .msixupload, or repackaged .appx file into the packages section.
 
 ![uploadfile](https://i.imgur.com/lhf3CIp.png "add the package file to the app")
 
