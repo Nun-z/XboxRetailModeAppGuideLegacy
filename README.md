@@ -263,9 +263,9 @@ We will now use an open-source application named AppxPacker (made by tunip3) to 
 
 **3.2.4.**  Extract the contents of the .appx file to a separate directory.
 
-**3.2.5.**  Double-click on the "Appx packer.exe" file that you extracted in step 3.2.1.  The application will launch.
+**3.2.5.**  Double-click on the "Appx packer.exe" file that you extracted in step 3.2.2.  The application will launch.
 
-**3.2.6.**  In the "app path" textbox, enter the full path of the folder from step 3.2.3. containing the contents of the .appx file (you should specify a folder, not a file).
+**3.2.6.**  In the "app path" textbox, enter the full path of the folder from step 3.2.4. containing the contents of the .appx file (you should specify a folder, not a file).
 
 **3.2.7.**  In the "output folder" textbox, enter the full path of any folder you'd like.  The folder you specify will contain the repackaged .appx file (again, this should be a folder and not a file).
 
@@ -281,7 +281,7 @@ We will now use an open-source application named AppxPacker (made by tunip3) to 
 
 **3.2.12.**  If the process is completed successfully, you will see a pop-up window indicating that the package was created and signed.
 
-**3.2.13.**  You will find the package that you will need to upload to the Microsoft Store in the output folder that you specified in step 3.2.6.
+**3.2.13.**  You will find the package that you will need to upload to the Microsoft Store in the output folder that you specified in step 3.2.7.
 
 ### Step 4: Upload the application to the Microsoft Store
 
