@@ -265,11 +265,11 @@ We will now use an open-source application named AppxPacker to repackage your ap
 
 **3.2.4.**  Double-click on the "Appx packer.exe" file that you extracted in step 3.2.1.  The application will launch.
 
-**3.2.5.**  In the "App path" textbox, enter the full path of the folder from step 3.2.3. containing the contents of the .appx file (you should specify a folder, not a file).
+**3.2.5.**  In the "app path" textbox, enter the full path of the folder from step 3.2.3. containing the contents of the .appx file (you should specify a folder, not a file).
 
-**3.2.6.**  In the "Output folder" textbox, enter the full path of any folder you'd like.  The folder you specify will contain the repackaged .appx file (again, this should be a folder and not a file).
+**3.2.6.**  In the "output folder" textbox, enter the full path of any folder you'd like.  The folder you specify will contain the repackaged .appx file (again, this should be a folder and not a file).
 
-**3.2.7.**  Uncheck the "Patch for XB1" checkbox.
+**3.2.7.**  Uncheck the "patch for XB1" checkbox.
 
 **3.2.8.**  Copy over the package name, publisher name, publisher display name, and package display name from the identity center webpage to the AppxPacker application as shown in the image below.
 
