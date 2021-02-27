@@ -183,7 +183,7 @@ If you need to create the package from the source code (occasionally necessary w
 
 We will now need to generate a .msixupload or .appxupload file for submission to the Microsoft Store.  This step will involve git and Visual Studio.
 
-**3.1.1**  Enter "cmd" in the Windows search bar and click on the first search result.
+**3.1.1.**  Enter "cmd" in the Windows search bar and click on the first search result.
 
 **3.1.2.**  Using the "cd" command, navigate to the folder that will hold the app's source code.
 
