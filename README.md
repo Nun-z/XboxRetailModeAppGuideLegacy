@@ -279,7 +279,7 @@ We will now use an open-source application named AppxPacker to repackage your ap
 
 **3.2.10**  You will be prompted for a password several times.  Just enter "test" for every prompt.
 
-**3.2.11**  If the process is completed successfully, you will see the below pop-up window indicating that the package was created and signed.
+**3.2.11**  If the process is completed successfully, you will see a pop-up window indicating that the package was created and signed.
 
 **3.2.12**  You will find the package that you will need to upload to the Microsoft Store in the output folder that you specified in step 3.2.6.
 
