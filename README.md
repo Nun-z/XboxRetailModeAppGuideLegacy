@@ -251,7 +251,7 @@ For RetroArch, use this:
 
 #### Step 3.2: You don't have the source code
 
-We will now use an open-source application named AppxPacker to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
+We will now use an open-source application named AppxPacker (made by tunip3) to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
 
 **3.2.1.**  Navigate to the Identity Center page by first clicking on the "product management" menu item and then clicking on the "product identity" menu item.
 
