@@ -179,7 +179,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 If you need to create the package from the source code (occasionally necessary when the app uses .NET), follow the steps in 3.1.  If you don't have the source code or know that your app does not use .NET, skip 3.1 and follow the steps in 3.2.  
 
-## Step 3.1: You have the source code
+#### Step 3.1: You have the source code
 
 We will now need to generate a .msixupload or .appxupload file for submission to the Microsoft Store.  This step will involve git and Visual Studio.
 
@@ -249,7 +249,7 @@ For RetroArch, use this:
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
 
-## Step 3.2: You don't have the source code
+#### Step 3.2: You don't have the source code
 
 We will now use an open-source application named AppxPacker to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
 
