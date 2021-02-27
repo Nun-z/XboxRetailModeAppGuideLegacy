@@ -329,7 +329,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 ### Step 5: Create a website that links to the app
 
-Once the app has been published, it is time to create a website that will link to your app in the Microsoft Store.  This step is required in order to get the app onto your Xbox in retail mode.  I will not detail this process extensively, but I will say what the website must contain.
+Once the app has been published, it is time to create a website that will link to your app in the Microsoft Store.  This step is required in order to get the app onto your Xbox in retail mode.  I will not detail this process extensively, but I will say what the website must contain.  NOTE: you may be able to skip this step by pasting a store link directly into Edge's URL field.  I'm looking into this.
 
 **1.**  Return to the Partner Center (https://partner.microsoft.com/en-us/dashboard/home) and go to your app's overview page.
 
