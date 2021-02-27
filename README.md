@@ -259,7 +259,7 @@ We will now use an open-source application named AppxPacker to repackage your ap
 
 **3.2.1.**  Download this .zip file (http://www.mediafire.com/file/a297dxtf746dnnd/AppxPacker.rar/file) and extract it to an easily accessible folder.
 
-**3.2.2.**  Right-click your .appx file and open it with WinRar.
+**3.2.2.**  Right-click **your** .appx file and open it with WinRar.
 
 **3.2.3.**  Extract the contents of the .appx file to a separate directory.
 
