@@ -22,6 +22,10 @@ I think I have fixed the issues with the guide.  If you do run into a problem, f
 
 * [Step 3: Prepare the application's package for upload](#step-3-prepare-the-applications-package-for-upload)
 
+    *[Step 3.1: You have the source code](#Step-31-you-have-the-source-code)
+    
+    *[Step 3.2: You don't have the source code](#Step-32-you-dont-have-the-source-code)
+
 * [Step 4: Upload the application to the Microsoft Store](#step-4-upload-the-application-to-the-microsoft-store)
 
 * [Step 5: Create a website that links to the app](#step-5-create-a-website-that-links-to-the-app)
@@ -173,13 +177,17 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 ### Step 3: Prepare the application's package for upload
 
+If you need to create the package from the source code (occasionally necessary when the app uses .NET), follow the steps in 3.1.  If you don't have the source code or know that your app does not use .NET, skip 3.1 and follow the steps in 3.2.  
+
+## Step 3.1: You have the source code
+
 We will now need to generate a .msixupload or .appxupload file for submission to the Microsoft Store.  This step will involve git and Visual Studio.
 
-**1.**  Enter "cmd" in the Windows search bar and click on the first search result.
+**3.1.1**  Enter "cmd" in the Windows search bar and click on the first search result.
 
-**2.**  Using the "cd" command, navigate to the folder that will hold the app's source code.
+**3.1.2.**  Using the "cd" command, navigate to the folder that will hold the app's source code.
 
-**3.**  Enter the following into cmd.exe and press the enter key.  Replace the URL I am using with the URL that links to your app's source code.
+**3.1.3**  Enter the following into cmd.exe and press the enter key.  Replace the URL I am using with the URL that links to your app's source code.
 
 `git clone --recursive https://github.com/Nun-z/UniversalFtpServer.git`
 
@@ -187,59 +195,93 @@ For RetroArch, use this:
 
 `git clone --recursive https://github.com/libretro/RetroArch.git`
 
-**4.**  Double-click on the resulting .sln file that corresponds to your app.  If the source code has multiple .sln files, make sure to click on the one that is specifically intended for generating a UWP package.
+**3.1.4.**  Double-click on the resulting .sln file that corresponds to your app.  If the source code has multiple .sln files, make sure to click on the one that is specifically intended for generating a UWP package.
 
-**5.**  For RetroArch, you will need the 2017 (not 2019) .sln file in the RetroArch/pkg/msvc-uwp/ directory.
+**3.1.5.**  For RetroArch, you will need the 2017 (not 2019) .sln file in the RetroArch/pkg/msvc-uwp/ directory.
 
-**6.**  For RetroArch, download the cores here (http://www.mediafire.com/file/f0yfmx33x3f0pin/RetroArch_Cores.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
+**3.1.6.**  For RetroArch, download the cores here (http://www.mediafire.com/file/f0yfmx33x3f0pin/RetroArch_Cores.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
 
-**7.**  For RetroArch, download the other .dll files here (https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_update.7z) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/ directory.
+**3.1.7.**  For RetroArch, download the other .dll files here (https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_update.7z) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/ directory.
 
-**8.**  Visual Studio will launch.  Click on the "sign in" button at the top-right of the screen.
+**3.1.8.**  Visual Studio will launch.  Click on the "sign in" button at the top-right of the screen.
 
 ![VSsignin](https://i.imgur.com/nHCZj2L.png "click on the sign-in button")
 
-**9.**  Log in with the Microsoft account that is linked to your Xbox.
+**3.1.9.**  Log in with the Microsoft account that is linked to your Xbox.
 
-**10.**  For RetroArch, expand the project in the right-hand solution window.
+**3.1.10.**  For RetroArch, expand the project in the right-hand solution window.
 
-**11.**  Right-click on "references" in the solution window.
+**3.1.11.**  Right-click on "references" in the solution window.
 
-**12.**  Click on the "add references."
+**3.1.12.**  Click on the "add references."
 
-**13.**  Click on the "extensions."
+**3.1.13.**  Click on the "extensions."
 
-**14.**  Click the checkboxes for "Microsoft Visual C++ Runtime Package for Windows Universal," "Visual C++ 2013 UWP Desktop Runtime," and "Visual C++ 2015 UWP Desktop Runtime," and then click on the ok button.
+**3.1.14.**  Click the checkboxes for "Microsoft Visual C++ Runtime Package for Windows Universal," "Visual C++ 2013 UWP Desktop Runtime," and "Visual C++ 2015 UWP Desktop Runtime," and then click on the ok button.
 
-**15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
+**3.1.15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
 
 ![associate](https://i.imgur.com/bu80QeO.png "Associate the source code with your app")
 
-**16.**  Press the "next" button, click on the name of your app, and then click on the "next" button again.
+**3.1.16.**  Press the "next" button, click on the name of your app, and then click on the "next" button again.
 
-**17.**  Click on the "associate" button.  The window will close.
+**3.1.17.**  Click on the "associate" button.  The window will close.
 
-**18.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
+**3.1.18.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
 
 ![configurations](https://i.imgur.com/gSoVFYM.png "choose the correct configurations")
 
-**19.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
+**3.1.19.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
 
 ![createpackage](https://i.imgur.com/tiD1dn0.png "create the package")
 
-**20.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
+**3.1.20.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
 
-**21.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
+**3.1.21.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
 
-**22.**  Uncheck the checkbox for "generate artifacts to validate..."
+**3.1.22.**  Uncheck the checkbox for "generate artifacts to validate..."
 
 ![makepackagefile](https://i.imgur.com/c4IVMaF.png "select package options")
 
-**23.**  Click on the "create" button.
+**3.1.23.**  Click on the "create" button.
 
-**24.**  Click on the "output location" link.
+**3.1.24.**  Click on the "output location" link.
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
+
+## Step 3.2: You don't have the source code
+
+We will now use an open-source application named AppxPacker to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
+
+**3.2.1**  Navigate to the Identity Center page by first clicking on the "product management" menu item and then clicking on the "product identity" menu item.
+
+![gotoidentity](https://i.imgur.com/RST70H2.png "navigate to product identity")
+
+**3.2.1**  Download this .zip file (http://www.mediafire.com/file/a297dxtf746dnnd/AppxPacker.rar/file) and extract it to an easily accessible folder.
+
+**3.2.2**  Right-click your .appx file and open it with WinRar.
+
+**3.2.3**  Extract the contents of the .appx file to a separate directory.
+
+**3.2.4**  Double-click on the "Appx packer.exe" file that you extracted in step 3.2.1.  The application will launch.
+
+**3.2.5**  In the "App path" textbox, enter the full path of the folder from step 3.2.3. containing the contents of the .appx file (you should specify a folder, not a file).
+
+**3.2.6**  In the "Output folder" textbox, enter the full path of any folder you'd like.  The folder you specify will contain the repackaged .appx file (again, this should be a folder and not a file).
+
+**3.2.7**  Uncheck the "Patch for XB1" checkbox.
+
+**3.2.8**  Copy over the package name, publisher name, publisher display name, and package display name from the identity center webpage to the AppxPacker application as shown in the image below.
+
+![copydetes](https://i.imgur.com/77GKWYu.png "copy over details")
+
+**3.2.9**  Click on the "create appx" button in the AppxPacker application.
+
+**3.2.10**  You will be prompted for a password several times.  Just enter "test" for every prompt.
+
+**3.2.11**  If the process is completed successfully, you will see the below pop-up window indicating that the package was created and signed.
+
+**3.2.12**  You will find the package that you will need to upload to the Microsoft Store in the output folder that you specified in step 3.2.6.
 
 ### Step 4: Upload the application to the Microsoft Store
 
