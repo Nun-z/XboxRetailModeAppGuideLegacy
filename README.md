@@ -24,7 +24,7 @@ I think I have fixed the issues with the guide.  If you do run into a problem, f
 
     * [Step 3.1: You have the source code](#Step-31-you-have-the-source-code)
     
-    * [Step 3.2: You don't have the source code](#Step-32-you-dont-have-the-source-code)
+    * [Step 3.2: You don't have the source code or don't want to compile the app](#Step-32-you-dont-have-the-source-code)
 
 * [Step 4: Upload the application to the Microsoft Store](#step-4-upload-the-application-to-the-microsoft-store)
 
@@ -249,7 +249,7 @@ For RetroArch, use this:
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
 
-#### Step 3.2: You don't have the source code
+#### Step 3.2: You don't have the source code or don't want to compile the app
 
 We will now use an open-source application named AppxPacker (made by tunip3) to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
 
