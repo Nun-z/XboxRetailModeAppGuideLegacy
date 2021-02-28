@@ -28,7 +28,7 @@ I think I have fixed the issues with the guide.  If you do run into a problem, f
 
 * [Step 4: Upload the application to the Microsoft Store](#step-4-upload-the-application-to-the-microsoft-store)
 
-* [Step 5: Create a website that links to the app](#step-5-create-a-website-that-links-to-the-app)
+* [Step 5: Create a website that links to the app or copy over the link](#step-5-create-a-website-that-links-to-the-app-or-copy-over-the-link)
 
 * [Step 6: Install the app to your Xbox in retail mode](#step-6-install-the-app-to-your-xbox-in-retail-mode)
 
@@ -327,7 +327,7 @@ Now that we have generated the package, we need to upload it to our private Micr
 
 **16.**  The app has now been submitted to the store.  Wait to receive an email indicating that the app was published.
 
-### Step 5: Create a website that links to the app
+### Step 5: Create a website that links to the app or copy over the link
 
 Once the app has been published, it is time to create a website that will link to your app in the Microsoft Store.  This step is required in order to get the app onto your Xbox in retail mode.  I will not detail this process extensively, but I will say what the website must contain.  NOTE: you may be able to skip this step by pasting a store link directly into Edge's URL field.  I'm looking into this.
 
