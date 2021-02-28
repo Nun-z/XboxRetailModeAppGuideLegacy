@@ -141,7 +141,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **3.**  Scroll down and select the "no" radio button for the final question.
 
-![ratingsboard](https://i.imgur.com/aJ14GMP.png "select no here")
+![ratingsboard](https://i.imgur.com/wzIZDnA.png "select no here")
 
 **4.**  Click on the "save" button.
 
