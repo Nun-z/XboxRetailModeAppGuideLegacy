@@ -251,7 +251,7 @@ For RetroArch, use this:
 
 #### Step 3.2: You don't have the source code or don't want to compile the app
 
-We will now use an open-source application named AppxPacker (made by tunip3) to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.
+We will now use an open-source application named AppxPacker (made by tunip3) to repackage your app so that you can upload it to the Microsoft Store.  For this step, you must have a .appx file that you will extract and repackage.  This will not work if your app uses .NET, in which case you cannot currently add the app to an Xbox in retail mode (to the best of my knowledge).
 
 **3.2.1.**  Navigate to the Identity Center page by first clicking on the "product management" menu item and then clicking on the "product identity" menu item.
 
