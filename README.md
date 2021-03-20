@@ -257,7 +257,7 @@ We will now use an open-source application named AppxPacker (made by tunip3) to 
 
 ![gotoidentity](https://i.imgur.com/RST70H2.png "navigate to product identity")
 
-**3.2.2.**  Download this .zip file (http://www.mediafire.com/file/a297dxtf746dnnd/AppxPacker.rar/file) and extract it to an easily accessible folder.
+**3.2.2.**  Download this .zip file (https://mega.nz/file/1oQzyKwC#iHrjUSLUa2F7Kdf1hsowjtnTSOAKnGHPLt1Iju4H64s) and extract it to an easily accessible folder.
 
 **3.2.3.**  Right-click **your** .appx file and open it with WinRar.
 
