@@ -277,7 +277,7 @@ We will now use an open-source application named AppxPacker (made by tunip3) to 
 
 **3.2.10.**  Click on the "create appx" button in the AppxPacker application.
 
-**3.2.11.**  You will be prompted for a password several times.  Just enter "test" for every prompt.
+**3.2.11.**  You will be prompted for a password several times.  Just enter "test" for every prompt. (If sign failed, try blank password instead)
 
 **3.2.12.**  If the process is completed successfully, you will see a pop-up window indicating that the package was created and signed.
 
