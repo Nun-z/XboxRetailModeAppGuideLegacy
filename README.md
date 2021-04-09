@@ -199,9 +199,9 @@ For RetroArch, use this:
 
 **3.1.5.**  For RetroArch, you will need the 2017 (not 2019) .sln file in the RetroArch/pkg/msvc-uwp/ directory.
 
-**3.1.6.**  For RetroArch, download the cores here (http://www.mediafire.com/file/f0yfmx33x3f0pin/RetroArch_Cores.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
+**3.1.6.**  For RetroArch, download the cores here (https://www.mediafire.com/file/gna4p5cdqb6q5ex/RetroArch_Cores.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
 
-**3.1.7.**  For RetroArch, download the other .dll files here (https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_update.7z) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/ directory.
+**3.1.7.**  For RetroArch, download the other .dll files here (https://www.mediafire.com/file/ylhptlqvkldsaf5/RetroArch_Dlls.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/ directory.
 
 **3.1.8.**  Visual Studio will launch.  Click on the "sign in" button at the top-right of the screen.
 
