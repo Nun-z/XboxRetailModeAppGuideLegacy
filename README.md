@@ -1,6 +1,8 @@
 This method (used first by tunip3) allows apps to be installed to an Xbox in retail mode that would normally only be available in dev mode.
 I think I have fixed the issues with the guide.  If you do run into a problem, feel free to create an issue.  You could also fork the guide and submit a pull request.
 
+I have been asked this several times, so I will clarify.  I wrote this guide from scratch and published it first here on GitHub.  It is not a leak from some other source.
+
 ## Guide to Installing Apps to an Xbox in Retail Mode
 
 ### Table of Contents
