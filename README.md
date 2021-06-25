@@ -4,7 +4,7 @@ I think I have fixed the issues with the guide.  If you do run into a problem, f
 I have been asked this several times, so I will clarify.  I wrote this guide from scratch and published it first here on GitHub.  It is not a leak from some other source.
 
 ### Demonstration of Updating Public Game Apps on the Microsoft Store
-This section will dispel some myths on public user-uploaded apps on the Microsoft Store, such as an uploaded version of RetroArch
+This section will dispel some myths on public user-uploaded apps on the Microsoft Store, such as uploaded versions of RetroArch
 
 ### Guide to Installing Apps to an Xbox in Retail Mode
 
