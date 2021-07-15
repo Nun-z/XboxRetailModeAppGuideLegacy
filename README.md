@@ -5,7 +5,7 @@ I have been asked this several times, so I will clarify.  I wrote this guide fro
 
 [Demonstration of Updating Public Game Apps on the Microsoft Store](https://gist.github.com/Nun-z/318dc6a6d6c8d3643e9b441630db1e4d "Demonstration of Updating Public Game Apps on the Microsoft Store")
 
-More Evidence that Updating Public Game Apps Work
+[More evidence that updating public game apps work (complete process from beginning to end)](https://youtu.be/8zcJp-Ia9xE "More evidence that updating public game apps work (complete process from beginning to end)")
 
 ### Guide to Installing Apps to an Xbox in Retail Mode
 
