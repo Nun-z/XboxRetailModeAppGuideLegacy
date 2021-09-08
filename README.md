@@ -1,12 +1,4 @@
-This method (used first by tunip3) allows apps to be installed to an Xbox in retail mode that would normally only be available in dev mode.
-I think I have fixed the issues with the guide.  If you do run into a problem, feel free to create an issue.  You could also fork the guide and submit a pull request.
-
-I have been asked this several times, so I will clarify.  I wrote this guide from scratch and published it first here on GitHub.  It is not a leak from some other source.
-
-[Demonstration of Updating Public Game Apps on the Microsoft Store](https://gist.github.com/Nun-z/318dc6a6d6c8d3643e9b441630db1e4d "Demonstration of Updating Public Game Apps on the Microsoft Store")
-
-[More evidence that updating public game apps works (complete process from beginning to end)](https://youtu.be/rypOLYE8sYg "More evidence that updating public game apps work (complete process from beginning to end)")
-
+This method (used first by tunip3) allows apps to be installed to an Xbox in retail mode that would normally only be available in dev mode.  Note that there are better options available if you just want to run RetroArch on your Xbox.  This is intended for those that want to create their own storefront containing RetroArch.
 ### Guide to Installing Apps to an Xbox in Retail Mode
 
 ### Table of Contents
