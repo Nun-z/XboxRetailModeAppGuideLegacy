@@ -34,13 +34,13 @@ This method (used first by tunip3) allows apps to be installed to an Xbox in ret
 
 This guide will describe the process of uploading a Universal Windows Platform (UWP) app to the Microsoft Store for use on an Xbox in retail mode.  Apps that you install to your Xbox in this way will not need to be sideloaded in dev mode.  This is useful for several reasons: allowing use of Xbox remote play, avoiding having to restart the Xbox, and bypassing the 2 GB file size limit imposed on dev mode.
 
-There are some things you should be aware of if you choose to follow this guide.  Installing emulation apps to an Xbox in retail mode is against Microsoft’s terms of service.  For example, it is possible to install RetroArch and PPSSPP to an Xbox in retail mode.  The consequences of breaking these terms of service, if any, are unknown.  In addition, you will need to pay $20 in order to acquire a developer account from Microsoft.  If you can currently sideload apps in dev mode, you have already paid and you don’t need to pay again.  For the purposes of this guide, an FTP app will be uploaded for use in retail mode.
+There are some things you should be aware of if you choose to follow this guide.  Installing emulation apps to an Xbox in retail mode is against Microsoft’s terms of service.  For example, it is possible to install RetroArch and PPSSPP to an Xbox in retail mode.  The consequences of breaking these terms of service, if any, are unknown.  In addition, you will need to pay $20 in order to acquire a developer account from Microsoft.  However, there is a method to bypass this, bringing the price down to around $1 USD.  If you can currently sideload apps in dev mode, you have already paid and you don’t need to pay again.  For the purposes of this guide, an FTP app will be uploaded for use in retail mode.
 
 To summarize what must be done, you must first create a template for an app on Microsoft Partner Center (used for releasing UWP apps to the Microsoft Store), indicate that the app will only be available to a private audience (so that it doesn’t need to pass certification), add your email address to that private audience, associate the app’s source code with the project you created in Partner Center, generate a package that can be uploaded to Partner Center, upload the package to Partner Center, submit the Partner Center project to Microsoft, create a website with a link to your app’s Microsoft Store page, and then click on that link using your Xbox’s Edge browser (or paste the app's link directly into the Xbox's edge broweser).
 
 ### Requirements
 
-To follow this guide, you will need $20 (unless you already have a Microsoft developer account), a computer running Windows, git, and Visual Studio 2017 or 2019.  The installation of Visual Studio and git is not within the scope of this guide.
+To follow this guide, you will need $20 (unless you already have a Microsoft developer account), a computer running Windows, git, and Visual Studio 2017 or 2019.  You may be able to just pay $1 if you have access to a credit card that will pass verification.  The installation of Visual Studio and git is not within the scope of this guide.
 
 ### Step 1: Sign up for a developer account
 
@@ -50,7 +50,9 @@ If you have a Microsoft account that you log into on your Xbox and $20, you have
 
 **2.**  If you are not already signed in with your Xbox’s Microsoft account, sign in using the prompt displayed.
 
-**3.**  On the next page, select the “individual” account type option.
+**3.**  You will then be presented with a dropdown menu for selecting your region.  If you choose Argentina, you will end up paying around $1 USD, as long as you can submit payment using a credit card or other card that will pass verification.  If you choose United States or most other countries, you will end up paying around $20.
+
+**3.**  Once you select a region, the account type options will be displayed.  Select “individual” account type option.
 ![AccountType](https://i.imgur.com/3M84Ydq.png "Sign up for an individual account")
 
 **4.**  Scroll down to the “publisher display name (company name)” textbox and enter your desired publisher name.  This can be anything as long as it hasn’t already been claimed by someone else.
@@ -79,7 +81,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 ![availability](https://i.imgur.com/sjNFIwR.png "Click on the topmost link")
 
-**6.**  In the visibility section of the next page, click on the "private audience" radio button, and then click on the "create a new group" link.
+**6.**  In the visibility section of the next page, click on the "private audience" radio button, and then click on the "create a new group" link.  If you instead select the "public audience" and "direct link only" options, anyone will be able to access your app without a whitelist, but you may have difficulty updating your apps.  If you choose to go public instead, you don't have to worry about creating groups.
 
 **7.**  Enter anything you desire in the "group name" textbox, and then enter your email address into the bottom textbox.
 
@@ -195,11 +197,11 @@ For RetroArch, use this:
 
 **3.1.4.**  Double-click on the resulting .sln file that corresponds to your app.  If the source code has multiple .sln files, make sure to click on the one that is specifically intended for generating a UWP package.
 
-**3.1.5.**  For RetroArch, you will need the 2017 (not 2019) .sln file in the RetroArch/pkg/msvc-uwp/ directory.
+**3.1.5.**  For RetroArch, you will need the 2019 .sln file in the RetroArch/pkg/msvc-uwp/ directory.
 
-**3.1.6.**  For RetroArch, download the cores here (https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_cores.7z) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/cores/ directory.
+**3.1.6.**  For RetroArch, download the cores here (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Nun-z/RetroArch-Redist/tree/main/cores) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/cores/ directory.
 
-**3.1.7.**  For RetroArch, download the other .dll files here (https://www.mediafire.com/file/ylhptlqvkldsaf5/RetroArch_Dlls.rar/file) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2017-UWP/cores/x64/ directory.
+**3.1.7.**  For RetroArch, download the other .dll files here (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Nun-z/RetroArch-Redist/tree/main/other) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/ directory.
 
 **3.1.8.**  Visual Studio will launch.  Click on the "sign in" button at the top-right of the screen.
 
@@ -208,14 +210,6 @@ For RetroArch, use this:
 **3.1.9.**  Log in with the Microsoft account that is linked to your Xbox.
 
 **3.1.10.**  For RetroArch, expand the project in the right-hand solution window.
-
-**3.1.11.**  Right-click on "references" in the solution window.
-
-**3.1.12.**  Click on the "add references."
-
-**3.1.13.**  Click on the "extensions."
-
-**3.1.14.**  Click the checkboxes for "Microsoft Visual C++ Runtime Package for Windows Universal," "Visual C++ 2013 UWP Desktop Runtime," and "Visual C++ 2015 UWP Desktop Runtime," and then click on the ok button.
 
 **3.1.15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
 
