@@ -231,13 +231,13 @@ For RetroArch, use this:
 
 **3.1.17.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
 
-**3.1.19.**  Uncheck the checkbox for "generate artifacts to validate..."
+**3.1.18.**  Uncheck the checkbox for "generate artifacts to validate..."
 
 ![makepackagefile](https://i.imgur.com/c4IVMaF.png "select package options")
 
-**3.1.20.**  Click on the "create" button.
+**3.1.19.**  Click on the "create" button.
 
-**3.1.21.**  Click on the "output location" link.
+**3.1.20.**  Click on the "output location" link.
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
 
