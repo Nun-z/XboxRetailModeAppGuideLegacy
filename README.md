@@ -211,33 +211,33 @@ For RetroArch, use this:
 
 **3.1.10.**  For RetroArch, expand the project in the right-hand solution window.
 
-**3.1.15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
+**3.1.11.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "associate app with the store."
 
 ![associate](https://i.imgur.com/bu80QeO.png "Associate the source code with your app")
 
-**3.1.16.**  Press the "next" button, click on the name of your app, and then click on the "next" button again.
+**3.1.12.**  Press the "next" button, click on the name of your app, and then click on the "next" button again.
 
-**3.1.17.**  Click on the "associate" button.  The window will close.
+**3.1.13.**  Click on the "associate" button.  The window will close.
 
-**3.1.18.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
+**3.1.14.**  For RetroArch, select the ReleaseANGLE and x64 configurations.
 
 ![configurations](https://i.imgur.com/gSoVFYM.png "choose the correct configurations")
 
-**3.1.19.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
+**3.1.15.**  Right-click on the UWP project in the Solution Explorer, place the mouse over the "publish" option, and then click on "create app packages."
 
 ![createpackage](https://i.imgur.com/tiD1dn0.png "create the package")
 
-**3.1.20.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
+**3.1.16.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
 
-**3.1.21.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
+**3.1.17.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
 
-**3.1.22.**  Uncheck the checkbox for "generate artifacts to validate..."
+**3.1.19.**  Uncheck the checkbox for "generate artifacts to validate..."
 
 ![makepackagefile](https://i.imgur.com/c4IVMaF.png "select package options")
 
-**3.1.23.**  Click on the "create" button.
+**3.1.20.**  Click on the "create" button.
 
-**3.1.24.**  Click on the "output location" link.
+**3.1.21.**  Click on the "output location" link.
 
 ![linktopackage](https://i.imgur.com/kEVgRFW.png "open the package destination")
 
