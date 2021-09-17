@@ -52,16 +52,16 @@ If you have a Microsoft account that you log into on your Xbox and $20, you have
 
 **3.**  You will then be presented with a dropdown menu for selecting your region.  If you choose Argentina, you will end up paying around $1 USD, as long as you can submit payment using a credit card or other card that will pass verification.  If you choose United States or most other countries, you will end up paying around $20.
 
-**3.**  Once you select a region, the account type options will be displayed.  Select “individual” account type option.
+**4.**  Once you select a region, the account type options will be displayed.  Select “individual” account type option.
 ![AccountType](https://i.imgur.com/3M84Ydq.png "Sign up for an individual account")
 
-**4.**  Scroll down to the “publisher display name (company name)” textbox and enter your desired publisher name.  This can be anything as long as it hasn’t already been claimed by someone else.
+**5.**  Scroll down to the “publisher display name (company name)” textbox and enter your desired publisher name.  This can be anything as long as it hasn’t already been claimed by someone else.
 
-**5.**  Scroll down and fill in the “contact info” textboxes.  Then, press the “next” button at the bottom of the page.
+**6.**  Scroll down and fill in the “contact info” textboxes.  Then, press the “next” button at the bottom of the page.
 
-**6.**  On the next page, click on “add a new payment method.”
+**7.**  On the next page, click on “add a new payment method.”
 
-**7.**  Enter your payment information, go to the Review page, and complete the purchase.  You now have a Microsoft developer account.
+**8.**  Enter your payment information, go to the Review page, and complete the purchase.  You now have a Microsoft developer account.
 
 ### Step 2: Create an application in Microsoft Partner Center
 
