@@ -199,9 +199,9 @@ For RetroArch, use this:
 
 **3.1.5.**  For RetroArch, you will need the 2019 .sln file in the RetroArch/pkg/msvc-uwp/ directory.
 
-**3.1.6.**  For RetroArch, download the cores here (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Nun-z/RetroArch-Redist/tree/main/cores) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/cores/ directory.
+**3.1.6.**  For RetroArch, download the cores here (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Nun-z/RetroArch-Redist/tree/main/cores) (DO NOT USE, currently broken) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/cores/ directory.
 
-**3.1.7.**  For RetroArch, download the other .dll files here (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Nun-z/RetroArch-Redist/tree/main/other) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/ directory.
+**3.1.7.**  For RetroArch, download the other .dll files here (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Nun-z/RetroArch-Redist/tree/main/other) (DO NOT USE, currently broken) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/ directory.
 
 **3.1.8.**  Visual Studio will launch.  Click on the "sign in" button at the top-right of the screen.
 
