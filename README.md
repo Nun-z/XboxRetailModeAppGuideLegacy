@@ -251,7 +251,7 @@ We will now use an open-source application named AppxPacker (made by tunip3) to 
 
 **3.2.2.**  Download this .zip file (https://mega.nz/file/1oQzyKwC#iHrjUSLUa2F7Kdf1hsowjtnTSOAKnGHPLt1Iju4H64s) and extract it to an easily accessible folder.
 
-**3.2.3.**  Right-click your .appx file and open it with WinRar.  There are many sources for RetroArch packages that will work on Xbox.  The official one is here: https://buildbot.libretro.com/stable/1.9.9/windows-msvc2019-uwp/x64/RetroArch-msvc2019-UWP_x64.msixbundle.  Bundle files will need to be opened with WinRar in order to extract the .msix or .appx file inside it.  You can rename a .msix file to give it a .appx file extension, and it should still work.
+**3.2.3.**  Right-click your .appx file and open it with WinRar.  There are many sources for RetroArch packages that will work on Xbox.  The official one is here: https://buildbot.libretro.com/stable/1.9.12/windows-msvc2019-uwp/x64/RetroArch-msvc2019-UWP_x64.msixbundle.  Bundle files will need to be opened with WinRar in order to extract the .msix or .appx file inside it.  You can rename a .msix file to give it a .appx file extension, and it should still work.
 
 **3.2.4.**  Extract the contents of the .appx file to a separate directory.
 
