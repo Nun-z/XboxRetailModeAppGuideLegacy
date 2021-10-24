@@ -125,11 +125,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 ![policy](https://i.imgur.com/mQFNZDZ.png "select the appropriate radio button for your app")
 
-**5.**  Scroll down to the display mode section and click on both Xbox checkboxes.
-
-![display](https://i.imgur.com/AgcQQQD.png "display mode checkboxes")
-
-**6.**  No further input is required.  Scroll all the way down and click on the "save" button.
+**5.**  No further input is required.  Scroll all the way down and click on the "save" button.
 
 #### Step 2.3: Enter age ratings settings
 
@@ -171,9 +167,7 @@ Now we will use the Partner Center to create an app that you can submit to your 
 
 **9.**  Once you have found a suitable image, click on the plus button and upload it.
 
-**10.**  You will also need to upload a store logo image, in the section below the screenshots, with dimensions between 720x1080 and 1440x2160.
-
-**11.**  Once the uploads are complete, no further input is required for this page.  Scroll down and click the "save" button at the bottom of the page.
+**10.**  Once the upload is complete, no further input is required for this page.  Scroll down and click the "save" button at the bottom of the page.
 
 ### Step 3: Prepare the application's package for upload
 
@@ -188,8 +182,6 @@ We will now need to generate a .msixupload or .appxupload file for submission to
 **3.1.2.**  Using the "cd" command, navigate to the folder that will hold the app's source code.
 
 **3.1.3**  Enter the following into cmd.exe and press the enter key.  Replace the URL I am using with the URL that links to your app's source code.
-
-`git clone --recursive https://github.com/Nun-z/UniversalFtpServer.git`
 
 For RetroArch, use this:
 
