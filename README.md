@@ -229,7 +229,7 @@ For RetroArch, use this:
 
 **3.1.16.**  Click on the topmost radio button next to the text containing your app's name.  Then, click on the "next" button.
 
-**3.1.17.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.
+**3.1.17.**  Click on the checkbox for "automatically increment" and uncheck all checkboxes that are not related to the x64 configuration.  Make sure the middle drop-down menu is set to ReleaseANGLE.
 
 **3.1.18.**  Uncheck the checkbox for "generate artifacts to validate..."
 
