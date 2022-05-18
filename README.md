@@ -1,9 +1,5 @@
 This method (used first by tunip3) allows apps to be installed to an Xbox in retail mode that would normally only be available in dev mode.  Note that there are better options available if you just want to run RetroArch on your Xbox.  This is intended for those that want to create their own storefront containing RetroArch or those that want to self-host.
 
-### WARNING ###
-
-Many users are reporting that their dev mod accounts have been deactivated.  If this has happened to you, email reportapp@microsoft.com to have your account reinstated.
-
 ### Guide to Installing Apps to an Xbox in Retail Mode
 
 ### Table of Contents
