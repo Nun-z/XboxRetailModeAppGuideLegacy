@@ -194,7 +194,7 @@ For RetroArch, use this:
 
 **3.1.6.**  For RetroArch, download the cores here (http://buildbot.libretro.com/nightly/windows/x86_64/RetroArch_cores.7z).  Choose which ones you want to use and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/cores/ directory.  Note that not all cores work on Xbox.  If you want to use Mupen64 (N64) or Flycast (Dreamcast), you will need to use the cores here instead (http://195.90.212.190/Files/Angle%20Cores/).
 
-**3.1.7.**  For RetroArch, download the other .dll files here (https://mega.nz/file/mJpSCICD#-KlW8X74JDNpg8NHlS-khmX0ROdysgiVMgqK1tM3Exs) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/ directory.
+**3.1.7.**  For RetroArch, download the other .dll files here (https://mega.nz/file/3dAhEYJZ#OjZvEp9UTubxiQY4RbziWjP7Zg0cIh3lQaGDEj12p5Y) and place them in the RetroArch/pkg/msvc-uwp/RetroArch-msvc2019-UWP/cores/x64/ directory.
 
 **3.1.8.**  Visual Studio will launch.  Click on the "sign in" button at the top-right of the screen.
 
